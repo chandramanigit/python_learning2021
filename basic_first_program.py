@@ -14,5 +14,5 @@ while True:
     else:
         result.append(sentence_make(user_input))
     
-print(" ".join(result)) #result
+print(" ".join(result)) #result fff
 
