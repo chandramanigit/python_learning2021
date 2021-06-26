@@ -6,7 +6,8 @@ def interactive():
     query= input("Enter Word: ")
     if query in raw_data.keys():
         return "\n".join(raw_data[query])  #list joining method
-
+    else:
+        return "The word doesn't exist , please double check it"
         #print(*result , sep = '\n')
 
 print(interactive())    
