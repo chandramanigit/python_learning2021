@@ -5,6 +5,8 @@ with open("App1_Building_Dictionary\\data.json" , "r") as myfile:
 def interactive():
     query= input("Enter Word: ")
     if query in raw_data.keys():
-        return str(raw_data[query])
+        return "\n".join(raw_data[query])  #list joining method
 
-print(interactive())
+        #print(*result , sep = '\n')
+
+print(interactive())    
